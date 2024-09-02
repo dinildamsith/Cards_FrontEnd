@@ -1,12 +1,12 @@
 import './App.css'
+import '@fortawesome/fontawesome-free/css/all.min.css'; // Ensure this is imported in your main CSS file
+import ShoesDetailsCard from "./Components/ShoesDetailsCard";
 
 function App() {
 
   return (
     <>
-        <h1 className="text-3xl font-bold underline">
-            Hello world!
-        </h1>
+        <ShoesDetailsCard/>
     </>
   )
 }
