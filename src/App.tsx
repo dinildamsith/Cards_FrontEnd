@@ -6,7 +6,12 @@ function App() {
 
   return (
     <>
-        <ShoesDetailsCard/>
+
+        <div className="flex justify-center mt-10">
+            <div className="p-4 flex flex-wrap gap-4 justify-center">
+                <ShoesDetailsCard/>
+            </div>
+        </div>
     </>
   )
 }
